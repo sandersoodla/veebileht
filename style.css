@@ -15,8 +15,9 @@ p {
 .header {
     margin: auto;
     width: 85%;
-    border: 2px solid gold;
-    border-radius: 10px;
+    border: 1px solid gold;
+    border-top-width: 8px;
+    border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
 }
@@ -26,18 +27,17 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-color: rgb(255, 251, 0);
+    background-color: gold;
     border-radius: 5px;
 }
 
 .navigationbar {
     margin: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     position: sticky;
     top: 0;
     width: 85%;
     border: 2px solid gold;
-    border-radius: 10px;
 }
 
 .navigationbar ul {
@@ -69,8 +69,9 @@ p {
 .contentbox {
     margin: auto;
     width: 85%;
-    border: 2px solid gold;
-    border-radius: 10px;
+    border: 1px solid gold;
+    border-top-width: 8px;
+    border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
 }
