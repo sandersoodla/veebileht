@@ -1,4 +1,6 @@
 body {
+    background-image: url("Assets/circuitboard.png");
+    background-attachment: fixed;
     background-color: black;
 }
 
@@ -20,6 +22,7 @@ p {
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .logo {
@@ -38,6 +41,7 @@ p {
     top: 0;
     width: 85%;
     border: 2px solid gold;
+    background-color: rgba(0, 0, 0, 0.6)
 }
 
 .navigationbar ul {
@@ -74,4 +78,5 @@ p {
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6)
 }
