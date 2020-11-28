@@ -38,5 +38,33 @@
                 Morbi aliquam massa vitae sem cursus, nec accumsan augue hendrerit. Aenean sit amet gravida ligula.
             </p>
         </div>
+		
+		<div class="container">
+			<img class="slides" src="pildid\lai1.jpg">
+			<img class="slides" src="pildid\lai2.jpg">
+			
+			<button class="vasak_nupp" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="parem_nupp" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+		
+		<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("slides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length} ;
+		  for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";
+		  }
+		  x[slideIndex-1].style.display = "block";
+		}
+		</script>
     </body>
 </html>
