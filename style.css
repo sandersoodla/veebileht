@@ -41,19 +41,19 @@ p {
     top: 0;
     width: 85%;
     border: 2px solid gold;
-    background-color: rgba(0, 0, 0, 0.6)
+    background-color: black;
 }
 
 .navigationbar ul {
     margin: 0;
     padding: 0;
-    background-color: black;
     list-style-type: none;
     overflow: hidden;
 }
 
 .navigationbar li {
     float: left;
+    background-color: black;
 }
 
 .navigationbar li a {
@@ -68,6 +68,11 @@ p {
 .navigationbar li a:hover {
     background-color: gold;
     color: black;
+}
+
+.active {
+    background: gold !important;
+    color: black !important;
 }
 
 .contentbox {
