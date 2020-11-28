@@ -8,3 +8,29 @@
 h1 {
     font-family: Metal;
 }
+
+.slides {
+	display: none;
+	margin-left: 175px;
+	margin-right: 200px;
+	width:76.5%;
+	height:10%;
+}
+
+.container {
+	position: relative;
+}
+
+.container .vasak_nupp {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.container .parem_nupp {
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	
