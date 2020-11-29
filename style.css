@@ -1,12 +1,104 @@
-.header {
-    margin: auto;
-    width: 75%;
-    border: 5px solid gold;
-    padding: 10px;
+body {
+    background-image: url("Assets/circuitboard.png");
+    background-attachment: fixed;
+    background-color: black;
 }
 
 h1 {
-    font-family: Metal;
+    font-family: Hack, monospace;
+    color: gold;
+}
+
+p {
+    font-family: Hack, monospace;
+    color: gold;
+}
+
+.header {
+    margin: auto;
+    width: 85%;
+    border: 1px solid gold;
+    border-top-width: 8px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+.navigationbar {
+    margin: auto;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    width: 85%;
+    border: 2px solid gold;
+    background-color: black;
+}
+
+.navigationbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navigationbar li {
+    float: left;
+    background-color: black;
+}
+
+.navigationbar li a {
+    display: block;
+    color: gold;
+    font-family: Hack, monospace;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.navigationbar li a:hover {
+    background-color: gold;
+    color: black;
+}
+
+.active {
+    background: gold !important;
+    color: black !important;
+}
+
+.contentbox {
+    margin: auto;
+    display: flex;
+    width: 85%;
+    border: 1px solid gold;
+    border-top-width: 8px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.sub-box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid gold;
+    border-top-width: 8px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: auto;
+}
+
+.sub-box:first-child {
+    margin-right: 20px;
 }
 
 .slides {
