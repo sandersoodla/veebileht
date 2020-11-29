@@ -94,7 +94,7 @@ p {
     border-top-width: 8px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.6);
-    overflow: hidden;
+    overflow: auto;
 }
 
 .sub-box:first-child {
