@@ -116,6 +116,7 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 	width: 76.5%;
+	height: 10%;
 }
 
 .container {
@@ -134,4 +135,39 @@ p {
 	position: absolute;
 	top: 50%;
 	right: 10%;
+}
+
+.productbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
+}
+
+.productbox:first-child {
+    align-self: center;
+}
+
+.product {
+    border: 1px solid gold;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.product-img {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.product-img:hover {
+    color: #3399FF;
+}
+
+.product-detail:link, .product-detail:visited {
+    text-decoration: none;
+}
+
+.product-price {
+    text-align: center;
 }
