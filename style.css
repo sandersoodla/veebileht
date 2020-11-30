@@ -107,14 +107,14 @@ p {
     overflow: auto;
 }
 
-.sub-box {
+.sub-box:first-child {
     margin-right: 20px;
 }
 
 .slides {
 	display: none;
-	margin-left: 175px;
-	margin-right: 200px;
+	margin-left: auto;
+	margin-right: auto;
 	width:76.5%;
 	height:10%;
 }
