@@ -1,3 +1,4 @@
+//Tehtud https://www.w3schools.com/w3css/w3css_slideshow.asp abil
 var slideIndex = 1; //Paneb piltide indeksiks 1
 showDivs(slideIndex); //Rakendab showdivs funktsiooni kohal slideIndex
 
